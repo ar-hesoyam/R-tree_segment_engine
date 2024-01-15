@@ -1,7 +1,7 @@
 # R-tree_segment_engine
 Sets of segments are stored as a data structure known as the R-tree
 
-Available commands:
+Available commands:\n
   CREATE set_name;
   INSERT set_name [l, h]; // where [l, h] is a segment
   PRINT_TREE set_name; 
