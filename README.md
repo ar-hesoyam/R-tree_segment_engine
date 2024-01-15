@@ -1,12 +1,10 @@
 # R-tree_segment_engine
 Sets of segments are stored as a data structure known as the R-tree
 
-Available commands:\n
-  CREATE set_name;
-  INSERT set_name [l, h]; // where [l, h] is a segment
-  PRINT_TREE set_name; 
-  CONTAINS set_name [l, h];
-  SEARCH set_name *[WHERE query];
-    query := CONTAINS [L, H]
- 		 | INTERSECTS [L, H]
- 		 | LEFT_OF x
+Available commands:
+
+CREATE,  
+INSERT,  
+PRINT_TREE,  
+CONTAINS, 
+SEARCH *[WHERE query]; query := CONTAINS [L, H] | INTERSECTS [L, H] | LEFT_OF x
